@@ -50,9 +50,9 @@ class NeuralNetwork(torch.nn.Module):
 ```
 ```python
 # Initialize the Model, Loss Function, and Optimizer
-cynthia_brain = NeuralNetwork(X_train.shape[1])
+expai = NeuralNetwork(X_train.shape[1])
 loss_fn = torch.nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(cynthia_brain.parameters(), lr=0.001)
+optimizer = torch.optim.Adam(expai.parameters(), lr=0.001)
 ```
 ```python
 
